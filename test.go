@@ -31,8 +31,8 @@ func main() {
 
 	finder := facefinder.NewFinder(haarCascadeFilepath)
 	faces := finder.Detect(baseImage)
-	fmt.Println("asdf")
+	fmt.println("asdf")
 	for _, face := range faces {
-		fmt.Println("Face!")
+		fmt.println("Face!")
 	}
 }
